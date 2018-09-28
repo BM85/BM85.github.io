@@ -90,6 +90,11 @@ footer{
   color: #2A2A2A;
 }
 
+.sec{
+  width: max-content;
+  object-fit: cover;
+}
+
 @media (max-width: 480px){
   .gBG-2, .gBG-3{
     height: 300px;

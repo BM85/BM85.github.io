@@ -33,7 +33,8 @@
         <div class="jumbotron jumbotron-fluid gBG">
           <div class = "container">
               <div class="col-md-12 text-xs-center  p-y-3 m-y-3">
-                  <h1 class="display-2 intro">Front-End Web Developer</h1>
+                  <h1 class="display-2 intro">Bosko Mihic</h1>
+                  <h2 class="intro">Front-End Web Developer  </h2>
                   <a href="https://github.com/BM85" target="_blank" class="btn btn-outline-secondary btn-lg m-y-2"> GitHub</a>
               </div>
             </div>
@@ -43,6 +44,7 @@
                 <h1 class="display-4">About Me</h1>
                 <p class="p-y-2">I am a highly motivated and self-taught Front-End Web Developer based in Nashville, TN. I create responsive
 websites and web applications that focus on mobile devices and personal computers.</p>
+
             </div>
         </div>
         <div class="gBG-3">
@@ -50,12 +52,13 @@ websites and web applications that focus on mobile devices and personal computer
         </div>
         <div id="tech" class = "container">
             <div class="col-md-12 col-x2-12 p-y-3 m-y-3">
-                <h1 class="display-4">Tech I use</h1>
+                <h1 class="display-4">Technology I use</h1>
                 <div class="row p-y-2 m-y-1">
-                  <div class="col-md-3 col-xs-3"><img class="img-fluid tech m-x-auto d-block" src="IMG/html5.png" alt="html5"></div>
-                  <div class="col-md-3 col-xs-3"><img class="img-fluid tech m-x-auto d-block" src="IMG/css3.png" alt="css3"></div>
-                  <div class="col-md-3 col-xs-3"><img class="img-fluid tech m-x-auto d-block" src="IMG/js.jpg" alt="Javascript"></div>
-                  <div class="col-md-3 col-xs-3"><img class="img-fluid tech m-x-auto d-block" src="IMG/wordpress.png" alt="Wordpress"></div>
+                  <div class="col-md-2 col-xs-3"><img class="img-fluid tech m-x-auto d-block" src="IMG/html5.png" alt="html5"></div>
+                  <div class="col-md-2 col-xs-3"><img class="img-fluid tech m-x-auto d-block" src="IMG/css3.png" alt="css3"></div>
+                  <div class="col-md-2 col-xs-3"><img class="img-fluid tech m-x-auto d-block" src="IMG/js.jpg" alt="Javascript"></div>
+                  <div class="col-md-2 col-xs-3"><img class="img-fluid tech m-x-auto d-block" src="IMG/wordpress.png" alt="Wordpress"></div>
+                  <div class="col-md-2 col-xs-3"><img class="img-fluid tech m-x-auto d-block" src="IMG/git.png" alt="Git"></div>
                 </div>
             </div>
           </div>
@@ -67,15 +70,30 @@ websites and web applications that focus on mobile devices and personal computer
                 <div class="col-md-12">
                 <h1 class="display-4">Projects</h1>
                 <div class="row">
+                    <div class="col-md-6 m-y-1">
+                        <img src="IMG/sec.png" alt="Sandra's Easy Cooking" class="img-fluid w-100 sec">
+                    </div>
+                    <div class="col-md-6 m-y-1">
+                        <h2>Sandra's Easy Cooking</h2>
+                        <hr>
+                        <p> Migrated old Website from Google Blogspot to dedicated Wordress Host. Transfered over 400+ posts, comments, images. 
+                        <br>Fixed migration issues.<br> Improved site speed by minimizing Html/CSS and Javascript. <br> Set up advertising.</p>
+                        <p>Installed new Wordpress theme and plugin's per clients request. <br> Taught client how to use the Wordpress Admin panel.</p>
+                        <hr>
+                        <p><a href="http://www.sandraseasycooking.com/" target="_blank">http://www.sandraseasycooking.com/</a></p>
+                    </div>
+                  </div>
+                <div class="row">
                   <div class="col-md-6 m-y-1">
                       <img src="IMG/stopwatch.png" alt="Stopwatch app" class="img-fluid w-100">
                   </div>
                   <div class="col-md-6  m-y-1 ">
                       <h2>Stopwatch App</h2>
                       <hr>
-                      <p>A Stopwatch app created using HTML5, CSS3, and Javascript.</p>
-                      <p>User is able to start the stopwatch counter, pause, and clear.</p>
-                      <p>The goal of this project was to become familier working with JQuery.</p>
+                      <p>
+                      This is a simple Stopwatch application created utilizing HTML5 and JQuery. This project was mostly an exercise in learning how to use JQuery
+                      and to learn how it differs from using regular Javascript. <br>
+                      Keeping the project simple was the best solution without adding in too many unnecessary features.</p>
                       <hr>
                       <p><a href="https://bm85.github.io/Stopwatch/" target="_blank">Site</a></p>
                       <p><a href="https://github.com/BM85/Stopwatch" target="_blank">GitHub link</a></p>
@@ -88,8 +106,8 @@ websites and web applications that focus on mobile devices and personal computer
                   <div class="col-md-6 m-y-1">
                       <h2>Todo list App</h2>
                       <hr>
-                      <p>A Todo list app created using HTML5, CSS3, and Javascript.</p>
-                      <p>The goal of this project was to learn and master Javascript Events and DOM manipulation.</p>
+                      <p> A simple Todo List application created using HTML5 and Javascript.<br>
+                      The primary objective of this project was to learn and master Javascript Events and DOM manipulation.</p>
                       <hr>
                       <p><a href="http://bm85.github.io/TodoList/" target="_blank">Site</a></p>
                       <p><a href="https://github.com/BM85/TodoList" target="_blank">GitHub Link</a></p>
@@ -101,10 +119,12 @@ websites and web applications that focus on mobile devices and personal computer
             <footer class="p-y-3 m-t-3">
                 <div class="container">
                     <div class="text-xs-center">
-                        <p>&copy Copyright 2016. All rights reserved.</p>
+                        <p>&copy Copyright 2016 - <span id="year"></span>. All rights reserved.</p>
                         <a class="toplink" href="#top">Back To Top</a>
                     </div>
                 </div>
             </footer>
+
+            <script src="Javascript/app.js"></script>
     </body>
 </html>
